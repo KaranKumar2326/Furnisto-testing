@@ -1,2 +1,46 @@
+# Node modules (installed packages)
+node_modules/
+npm-debug.log
+yarn-error.log
+pnpm-debug.log
+
+# Environment variables
 .env
-node_modules
+.env.local
+.env.development
+.env.production
+.env.test
+
+# Logs
+logs/
+*.log
+yarn-debug.log*
+yarn-error.log*
+npm-debug.log*
+debug.log*
+pm2.log
+pm2-out.log
+pm2-error.log
+
+# Output directories
+dist/
+build/
+coverage/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# IDE/Editor files
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Local database files
+*.sqlite
+*.sqlite-journal
+*.bak
